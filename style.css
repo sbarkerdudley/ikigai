@@ -1,0 +1,26 @@
+html,
+body,
+#container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background: #555;
+
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#container {
+  height: calc(100svh - 2.5rem);
+}
+
+a,
+html {
+  color: #ccc;
+}
+
+.anychart-credits {
+  display: none;
+}
